@@ -41,11 +41,11 @@ This system uses **LangGraph** as the orchestration engine and **FastAPI** as th
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  API Layer (FastAPI routes, Pydantic schemas)              │
+│  API Layer (FastAPI routes, Pydantic schemas)               │
 ├─────────────────────────────────────────────────────────────┤
-│  Application Layer (Use Cases, Service Engines)            │
+│  Application Layer (Use Cases, Service Engines)             │
 ├─────────────────────────────────────────────────────────────┤
-│  Domain Layer (Entities, Value Objects, Port Interfaces)   │
+│  Domain Layer (Entities, Value Objects, Port Interfaces)    │
 ├─────────────────────────────────────────────────────────────┤
 │  Infrastructure Layer (DB, RAG, LLM, Cache implementations) │
 └─────────────────────────────────────────────────────────────┘
